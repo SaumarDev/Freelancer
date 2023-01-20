@@ -1,0 +1,19 @@
+/* gray : #2c3e50
+green : #18bc9c 
+black : #212529;*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+.navbar{
+    background: #2c3e50;
+}
+
+.nav-container a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container > a{
+    font-size: 25px;
+}
