@@ -3,7 +3,7 @@ green : #18bc9c
 black : #212529;*/
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 .navbar{
     background: #2c3e50;
@@ -16,4 +16,50 @@ black : #212529;*/
 
 .nav-container > a{
     font-size: 25px;
+}
+
+.container-second {
+    background: #18bc9c;
+}
+
+.container-second p {
+    color:white; 
+}
+
+.container-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.container-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+}
+
+
+.center-star-rigth{
+    background: white;
+    border: 5px ;
+    height: 5px;
+    width: 15%;
+    margin: 10px auto;
+    display: inline-block;
+    position: absolute;
+    margin-left: -200px;
+}
+
+.center-star-left {
+    background: white;
+    border: 5px ;
+    height: 5px;
+    width: 15%;
+    margin: 10px auto;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+
+}
+
+.fa-star{
+    color: white;
 }
